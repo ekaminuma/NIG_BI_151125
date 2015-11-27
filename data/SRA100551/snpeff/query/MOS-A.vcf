@@ -1,0 +1,35 @@
+##fileformat=VCFv4.1
+##samtoolsVersion=0.1.18 (r982:295)
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="# high-quality ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Root-mean-square mapping quality of covering reads">
+##INFO=<ID=FQ,Number=1,Type=Float,Description="Phred probability of all samples being the same">
+##INFO=<ID=AF1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele frequency (assuming HWE)">
+##INFO=<ID=AC1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele count (no HWE assumption)">
+##INFO=<ID=G3,Number=3,Type=Float,Description="ML estimate of genotype frequencies">
+##INFO=<ID=HWE,Number=1,Type=Float,Description="Chi^2 based HWE test P-value based on G3">
+##INFO=<ID=CLR,Number=1,Type=Integer,Description="Log ratio of genotype likelihoods with and without the constraint">
+##INFO=<ID=UGT,Number=1,Type=String,Description="The most probable unconstrained genotype configuration in the trio">
+##INFO=<ID=CGT,Number=1,Type=String,Description="The most probable constrained genotype configuration in the trio">
+##INFO=<ID=PV4,Number=4,Type=Float,Description="P-values for strand bias, baseQ bias, mapQ bias and tail distance bias">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=PC2,Number=2,Type=Integer,Description="Phred probability of the nonRef allele frequency in group1 samples being larger (,smaller) than in group2.">
+##INFO=<ID=PCHI2,Number=1,Type=Float,Description="Posterior weighted chi^2 P-value for testing the association between group1 and group2 samples.">
+##INFO=<ID=QCHI2,Number=1,Type=Integer,Description="Phred scaled PCHI2.">
+##INFO=<ID=PR,Number=1,Type=Integer,Description="# permutations yielding a smaller PCHI2.">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GL,Number=3,Type=Float,Description="Likelihoods for RR,RA,AA genotypes (R=ref,A=alt)">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="# high-quality bases">
+##FORMAT=<ID=SP,Number=1,Type=Integer,Description="Phred-scaled strand bias P-value">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/home/w3pipeline/refdata/result/ekaminuma/20149/19956/34117/uniqsam/out2.bam
+GU811709|GU811709.2	4853	.	gttttttttttttt	gTTTTttttttttttttt,gTTTttttttttttttt	33.2	.	INDEL;DP=17;VDB=0.0211;AF1=1;AC1=2;DP4=6,2,4,5;MQ=40;FQ=-40.5;PV4=0.33,1,1,1	GT:PL:GQ	1/1:107,41,35,75,0,68:10
+GU811709|GU811709.2	9278	.	T	A	119	.	DP=8;VDB=0.0504;AF1=1;AC1=2;DP4=0,0,8,0;MQ=41;FQ=-51	GT:PL:GQ	1/1:152,24,0:45
+GU811709|GU811709.2	9279	.	A	T	56	.	DP=8;VDB=0.0007;AF1=0.5032;AC1=1;DP4=3,0,5,0;MQ=41;FQ=-8.63;PV4=1,1,0.027,0.0094	GT:PL:GQ	0/1:86,0,19:22
+GU811709|GU811709.2	13273	.	C	A	82	.	DP=99;VDB=0.0319;AF1=0.5;AC1=1;DP4=65,13,11,10;MQ=42;FQ=85;PV4=0.0068,1,0.022,0.005	GT:PL:GQ	0/1:112,0,255:99
+GU811709|GU811709.2	21746	.	G	T	216	.	DP=163;VDB=0.0477;AF1=0.504;AC1=1;DP4=9,12,80,62;MQ=42;FQ=-9.5;PV4=0.35,1,0.39,0.081	GT:PL:GQ	0/1:246,0,18:21
+GU811709|GU811709.2	58971	.	A	C	18.1	.	DP=23;VDB=0.0153;AF1=0.502;AC1=1;DP4=7,2,1,13;MQ=48;FQ=-6.97;PV4=0.001,1,1,0.16	GT:PL:GQ	0/1:48,0,21:24
+GU811709|GU811709.2	61476	.	aatagataga	aataga	193	.	INDEL;DP=56;VDB=0.0310;AF1=0.5;AC1=1;DP4=14,0,41,1;MQ=47;FQ=122;PV4=1,0.14,1,1	GT:PL:GQ	0/1:231,0,157:99
+GU811709|GU811709.2	64480	.	A	G	17.1	.	DP=104;VDB=0.0481;AF1=0.5;AC1=1;DP4=37,52,3,12;MQ=43;FQ=20.1;PV4=0.15,1,1,0.44	GT:PL:GQ	0/1:47,0,255:50

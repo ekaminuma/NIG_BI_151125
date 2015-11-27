@@ -1,0 +1,37 @@
+##fileformat=VCFv4.1
+##samtoolsVersion=0.1.18 (r982:295)
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="# high-quality ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Root-mean-square mapping quality of covering reads">
+##INFO=<ID=FQ,Number=1,Type=Float,Description="Phred probability of all samples being the same">
+##INFO=<ID=AF1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele frequency (assuming HWE)">
+##INFO=<ID=AC1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele count (no HWE assumption)">
+##INFO=<ID=G3,Number=3,Type=Float,Description="ML estimate of genotype frequencies">
+##INFO=<ID=HWE,Number=1,Type=Float,Description="Chi^2 based HWE test P-value based on G3">
+##INFO=<ID=CLR,Number=1,Type=Integer,Description="Log ratio of genotype likelihoods with and without the constraint">
+##INFO=<ID=UGT,Number=1,Type=String,Description="The most probable unconstrained genotype configuration in the trio">
+##INFO=<ID=CGT,Number=1,Type=String,Description="The most probable constrained genotype configuration in the trio">
+##INFO=<ID=PV4,Number=4,Type=Float,Description="P-values for strand bias, baseQ bias, mapQ bias and tail distance bias">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=PC2,Number=2,Type=Integer,Description="Phred probability of the nonRef allele frequency in group1 samples being larger (,smaller) than in group2.">
+##INFO=<ID=PCHI2,Number=1,Type=Float,Description="Posterior weighted chi^2 P-value for testing the association between group1 and group2 samples.">
+##INFO=<ID=QCHI2,Number=1,Type=Integer,Description="Phred scaled PCHI2.">
+##INFO=<ID=PR,Number=1,Type=Integer,Description="# permutations yielding a smaller PCHI2.">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GL,Number=3,Type=Float,Description="Likelihoods for RR,RA,AA genotypes (R=ref,A=alt)">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="# high-quality bases">
+##FORMAT=<ID=SP,Number=1,Type=Integer,Description="Phred-scaled strand bias P-value">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/home/w3pipeline/refdata/result/ekaminuma/20150/19957/34118/uniqsam/out2.bam
+GU811709|GU811709.2	4853	.	gttttttttttttt	gTTTTttttttttttttt,gTTTttttttttttttt,gTTttttttttttttt	94.2	.	INDEL;DP=28;VDB=0.0381;AF1=1;AC1=2;DP4=6,4,11,7;MQ=45;FQ=-40.5;PV4=1,1,1,1	GT:PL:GQ	1/1:152,25,19,135,0,124,147,12,112,135:10
+GU811709|GU811709.2	8738	.	T	A	6.2	.	DP=8;VDB=0.0041;AF1=0.4999;AC1=1;DP4=5,0,3,0;MQ=37;FQ=8.65;PV4=1,0.29,0.086,0.063	GT:PL:GQ	0/1:35,0,108:36
+GU811709|GU811709.2	9279	.	aat	aTat,aATat	41.5	.	INDEL;DP=17;VDB=0.0496;AF1=0.504;AC1=1;DP4=8,0,8,1;MQ=43;FQ=-16.6;PV4=1,1,1,1	GT:PL:GQ	0/1:79,0,18,65,4,73:21
+GU811709|GU811709.2	21746	.	G	T	222	.	DP=180;VDB=0.0475;AF1=1;AC1=2;DP4=6,14,87,73;MQ=42;FQ=-92;PV4=0.056,1,1,1	GT:PL:GQ	1/1:255,65,0:99
+GU811709|GU811709.2	46604	.	t	tG	6.55	.	INDEL;DP=141;VDB=0.0474;AF1=0.5;AC1=1;DP4=42,78,9,12;MQ=45;FQ=9.05;PV4=0.62,1,1,1	GT:PL:GQ	0/1:43,0,209:44
+GU811709|GU811709.2	58971	.	A	C	25	.	DP=18;VDB=0.0395;AF1=0.5032;AC1=1;DP4=2,3,4,9;MQ=44;FQ=-8.63;PV4=1,0.48,1,0.48	GT:PL:GQ	0/1:55,0,19:22
+GU811709|GU811709.2	61476	.	aatagataga	aataga	217	.	INDEL;DP=69;VDB=0.0416;AF1=0.5;AC1=1;DP4=14,1,51,3;MQ=45;FQ=32.5;PV4=1,1,1,0.084	GT:PL:GQ	0/1:255,0,67:70
+GU811709|GU811709.2	120516	.	A	C	17.1	.	DP=8;VDB=0.0100;AF1=0.5;AC1=1;DP4=2,4,0,2;MQ=40;FQ=20.1;PV4=1,1,0.44,0.046	GT:PL:GQ	0/1:47,0,154:50
+GU811709|GU811709.2	120521	.	A	T	7.8	.	DP=7;VDB=0.0100;AF1=0.5;AC1=1;DP4=1,4,0,2;MQ=40;FQ=10.4;PV4=1,0.0093,0.43,0.31	GT:PL:GQ	0/1:37,0,127:39
+GU811709|GU811709.2	120712	.	atttttttttt	attttttttt	14.6	.	INDEL;DP=11;VDB=0.0470;AF1=1;AC1=2;DP4=0,0,8,3;MQ=47;FQ=-67.5	GT:PL:GQ	1/1:55,33,0:44
