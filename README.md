@@ -1,9 +1,9 @@
 # NIG Bioinformatics Training Program 2015-11-25
-# November 25-27, 2015
-## Eli Kaminuma (National Institute of Genetics)
+### November 25-27, 2015
+### Eli Kaminuma (National Institute of Genetics)
 
 - Course name: Bioinformatics Training  Program (National Institute of Genetics in Japan)
-- Organizers : Fujiyama, A., Arita, M., Nakamura, Y.
+- Organizers : **Fujiyama, A., Arita, M., Nakamura, Y.**
 - Participants: University of the Philippines Diliman Students
 
 ----------------------------------------------------
