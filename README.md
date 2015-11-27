@@ -15,7 +15,7 @@
 |3|   2nd AM   |    2h |     6  | [DNA Barcode](ek_BioinfoPRG151126.pdf)      | JBIF(GBIF Japan Node), BOLD | |
 |4|   2nd PM   |  2.5h |      7 | [NGS Read Alignment](ek_BioinfoPRG151126.pdf) |  DDBJ Pipeline, SAM/BAM, samtools tview |x|
 | |   3rd AM   |    2h |      8 | [NGS Read Alignment](ek_BioinfoPRG151126.pdf) |  samtools mpileup                      |x|
-|5|    3rd PM  |    2h |      9 | [SNP Annotation](ek_BioinfoPRG151127.pdf)   |  SnpEff,  VCF                          |x|
+|5|    3rd PM  |    3h |      9 | [SNP Annotation](ek_BioinfoPRG151127.pdf)   |  SnpEff,  VCF                          |x|
 
 
 ----------------------------------------------------
