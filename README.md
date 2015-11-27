@@ -8,7 +8,7 @@
 
 ----------------------------------------------------
 
-|  | Day   | Estimated Time   | Assignment   | Topics       | Target       | NIG Supercomputer required |
+|  | Day   | Estimated Time   | Assignment   | Topics       | Target       | NIG Supercomputer Required |
 |:--|:-----------|:------------|:-------------|:-------------|:-------------|:-------------|
 |1| 1st PM|  1.5h |   [1], [2]       | [SRA database](ek_BioinfoPRG151125.pdf)| SRA data model      |  x |
 |2|       |  1.5h |   [3],[4],[5]      | [DDBJ web tools](ek_BioinfoPRG151125.pdf) | getentry search, ARSA search, ClustalW |  |
